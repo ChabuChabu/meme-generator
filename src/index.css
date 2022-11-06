@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Merriweather:ital,wght@0,300;0,400;1,300;1,400&family=Open+Sans:wght@300&family=Poppins:wght@300;600&family=Raleway:wght@500;600&family=Roboto:wght@100;400&family=Source+Sans+Pro&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+main{
+    padding: 36px;
+}
+.header{
+    display: flex;
+    align-items:center ;
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    color: white;
+    padding: 20px;
+}
+.header--image{
+    height: 100%;
+    margin-right: 6px;
+}
+.header--title{
+    font-size: 1.25rem;
+    margin-right: auto;
+}
+
+.header--project{
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+.form{
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+}
+.form--input{
+    font-family: 'Inter', sans-serif;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+}
+
+.form--button{
+    grid-column: 1/-1;
+    gap:17px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 5px; 
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.meme--image {
+    max-width: 100%;
+}
